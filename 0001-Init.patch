@@ -1,0 +1,24 @@
+From d76559c07d85daaf0035853d8107ff7207284e67 Mon Sep 17 00:00:00 2001
+From: Naman2505 <naman.tiwari2505@gmail.com>
+Date: Mon, 6 Feb 2023 22:26:03 +0530
+Subject: [PATCH] Init
+
+---
+ client.py | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/client.py b/client.py
+index 8fa067c..f051ca8 100644
+--- a/client.py
++++ b/client.py
+@@ -22,7 +22,6 @@ def getDataPoint(quote):
+ def getRatio(price_a, price_b):
+     """ Get ratio of price_a and price_b """
+     """ ------------- Update this function ------------- """
+-    # ratio = (price_a/price_b).as_integer_ratio()
+     if(price_b == 0):
+         return
+     return price_a/price_b
+-- 
+2.38.1.windows.1
+
